@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A85DE1320413B8C002C894F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE1220413B8C002C894F /* AppDelegate.swift */; };
+		6A85DE1820413B8C002C894F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A85DE1620413B8C002C894F /* Main.storyboard */; };
+		6A85DE1B20413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE1920413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodeld */; };
+		6A85DE1D20413B8C002C894F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A85DE1C20413B8C002C894F /* Assets.xcassets */; };
+		6A85DE2020413B8C002C894F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A85DE1E20413B8C002C894F /* LaunchScreen.storyboard */; };
+		6A85DE2820414A50002C894F /* CandidateManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE2720414A50002C894F /* CandidateManagerViewController.swift */; };
+		6A85DE2A20414BC7002C894F /* AddCandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE2920414BC7002C894F /* AddCandidateViewController.swift */; };
+		6A85DE2C20414C0F002C894F /* ShowCandidatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE2B20414C0F002C894F /* ShowCandidatesTableViewController.swift */; };
+		6A85DE2E20414C3F002C894F /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85DE2D20414C3F002C894F /* CandidateDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A85DE0F20413B8C002C894F /* TijerinaIsaac-hw5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TijerinaIsaac-hw5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A85DE1220413B8C002C894F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A85DE1720413B8C002C894F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A85DE1A20413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TijerinaIsaac_hw5.xcdatamodel; sourceTree = "<group>"; };
+		6A85DE1C20413B8C002C894F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A85DE1F20413B8C002C894F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A85DE2120413B8C002C894F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A85DE2720414A50002C894F /* CandidateManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateManagerViewController.swift; sourceTree = "<group>"; };
+		6A85DE2920414BC7002C894F /* AddCandidateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCandidateViewController.swift; sourceTree = "<group>"; };
+		6A85DE2B20414C0F002C894F /* ShowCandidatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCandidatesTableViewController.swift; sourceTree = "<group>"; };
+		6A85DE2D20414C3F002C894F /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A85DE0C20413B8C002C894F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A85DE0620413B8C002C894F = {
+			isa = PBXGroup;
+			children = (
+				6A85DE1120413B8C002C894F /* TijerinaIsaac-hw5 */,
+				6A85DE1020413B8C002C894F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A85DE1020413B8C002C894F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A85DE0F20413B8C002C894F /* TijerinaIsaac-hw5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A85DE1120413B8C002C894F /* TijerinaIsaac-hw5 */ = {
+			isa = PBXGroup;
+			children = (
+				6A85DE1220413B8C002C894F /* AppDelegate.swift */,
+				6A85DE1620413B8C002C894F /* Main.storyboard */,
+				6A85DE2720414A50002C894F /* CandidateManagerViewController.swift */,
+				6A85DE2920414BC7002C894F /* AddCandidateViewController.swift */,
+				6A85DE2B20414C0F002C894F /* ShowCandidatesTableViewController.swift */,
+				6A85DE2D20414C3F002C894F /* CandidateDetailViewController.swift */,
+				6A85DE1C20413B8C002C894F /* Assets.xcassets */,
+				6A85DE1E20413B8C002C894F /* LaunchScreen.storyboard */,
+				6A85DE2120413B8C002C894F /* Info.plist */,
+				6A85DE1920413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodeld */,
+			);
+			path = "TijerinaIsaac-hw5";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A85DE0E20413B8C002C894F /* TijerinaIsaac-hw5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A85DE2420413B8C002C894F /* Build configuration list for PBXNativeTarget "TijerinaIsaac-hw5" */;
+			buildPhases = (
+				6A85DE0B20413B8C002C894F /* Sources */,
+				6A85DE0C20413B8C002C894F /* Frameworks */,
+				6A85DE0D20413B8C002C894F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TijerinaIsaac-hw5";
+			productName = "TijerinaIsaac-hw5";
+			productReference = 6A85DE0F20413B8C002C894F /* TijerinaIsaac-hw5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A85DE0720413B8C002C894F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TijerinaIsaac;
+				TargetAttributes = {
+					6A85DE0E20413B8C002C894F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A85DE0A20413B8C002C894F /* Build configuration list for PBXProject "TijerinaIsaac-hw5" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A85DE0620413B8C002C894F;
+			productRefGroup = 6A85DE1020413B8C002C894F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A85DE0E20413B8C002C894F /* TijerinaIsaac-hw5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A85DE0D20413B8C002C894F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A85DE2020413B8C002C894F /* LaunchScreen.storyboard in Resources */,
+				6A85DE1D20413B8C002C894F /* Assets.xcassets in Resources */,
+				6A85DE1820413B8C002C894F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A85DE0B20413B8C002C894F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A85DE2A20414BC7002C894F /* AddCandidateViewController.swift in Sources */,
+				6A85DE2E20414C3F002C894F /* CandidateDetailViewController.swift in Sources */,
+				6A85DE2C20414C0F002C894F /* ShowCandidatesTableViewController.swift in Sources */,
+				6A85DE1B20413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodeld in Sources */,
+				6A85DE1320413B8C002C894F /* AppDelegate.swift in Sources */,
+				6A85DE2820414A50002C894F /* CandidateManagerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A85DE1620413B8C002C894F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A85DE1720413B8C002C894F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A85DE1E20413B8C002C894F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A85DE1F20413B8C002C894F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A85DE2220413B8C002C894F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A85DE2320413B8C002C894F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A85DE2520413B8C002C894F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TijerinaIsaac-hw5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TijerinaIsaac.TijerinaIsaac-hw5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A85DE2620413B8C002C894F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TijerinaIsaac-hw5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TijerinaIsaac.TijerinaIsaac-hw5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A85DE0A20413B8C002C894F /* Build configuration list for PBXProject "TijerinaIsaac-hw5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A85DE2220413B8C002C894F /* Debug */,
+				6A85DE2320413B8C002C894F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A85DE2420413B8C002C894F /* Build configuration list for PBXNativeTarget "TijerinaIsaac-hw5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A85DE2520413B8C002C894F /* Debug */,
+				6A85DE2620413B8C002C894F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A85DE1920413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A85DE1A20413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodel */,
+			);
+			currentVersion = 6A85DE1A20413B8C002C894F /* TijerinaIsaac_hw5.xcdatamodel */;
+			path = TijerinaIsaac_hw5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A85DE0720413B8C002C894F /* Project object */;
+}
