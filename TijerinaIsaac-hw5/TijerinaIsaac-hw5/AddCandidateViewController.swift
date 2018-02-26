@@ -36,7 +36,7 @@ class AddCandidateViewController: UIViewController, UITextFieldDelegate {
         //Calls function to see if the text fields are empty
         if fieldsAreEmpty() {
             //If one or more are empty then dispalys a message
-            messageLabel.text = "You must enter a value for all fields"
+            messageLabel.text = "You must enter a value for all fields."
         }else{
             //Connects to Core Data
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
